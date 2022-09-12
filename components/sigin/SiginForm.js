@@ -58,6 +58,7 @@ const SiginForm = () => {
       <RegisterInput
         errors={errors.password}
         label="Password"
+        type="password"
         register={register("password", {
           required: true,
         })}
